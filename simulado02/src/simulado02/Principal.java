@@ -73,7 +73,7 @@ public class Principal {
 	    String socioMaisVelho = times[i].socioMaisVelho();
 	    	if (socioMaisVelho != null) {
 	        System.out.println("\nTime: " + times[i].getNome());
-	        System.out.println("\nO sócio mais desse time velho é: " + socioMaisVelho);
+	        System.out.println("\nO sócio mais velho desse time é: " + socioMaisVelho);
 	    	}
 	    	else {
 	        System.out.println("\nO time " + times[i].getNome() + " não possui sócios cadastrados.");
